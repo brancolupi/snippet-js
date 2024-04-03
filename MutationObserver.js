@@ -19,7 +19,8 @@ mutations.forEach(function(mutation) {
 // Puoi eseguire qui le azioni desiderate quando l'innerHTML cambia
     }
     
-  });
+  })
+})
 
 // Avvia l'osservatore con l'elemento target e le opzioni
 observer.observe(targetElement, config);  
