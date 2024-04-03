@@ -22,6 +22,9 @@ mutations.forEach(function(mutation) {
   })
 })
 
+// Configura le opzioni per l'osservatore
+var config = { childList: true, subtree: true };
+
 // Avvia l'osservatore con l'elemento target e le opzioni
 observer.observe(targetElement, config);  
 
