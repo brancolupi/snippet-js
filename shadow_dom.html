@@ -1,7 +1,10 @@
+// https://developer.mozilla.org/en-US/docs/Web/API/Web_components/Using_shadow_DOM
+
 // Per recuperare il selettore dello shadow host da una pagina HTML, 
 // puoi utilizzare il metodo getRootNode() sull'elemento all'interno del quale si trova il Shadow DOM, 
 // come mostrato nell'esempio precedente. 
-// Ecco un modo per farlo:Supponiamo che il tuo Shadow DOM si trovi all'interno di un elemento con ID "shadow-container" 
+// Ecco un modo per farlo:
+// Supponiamo che il tuo Shadow DOM si trovi all'interno di un elemento con ID "shadow-container" 
 // e che tu voglia recuperare il selettore dello shadow host:
 
 <!DOCTYPE html>
@@ -46,10 +49,7 @@
 // Se il nodo radice è uno ShadowRoot, il suo host (il selettore dello shadow host) viene recuperato utilizzando shadowHost.tagName.toLowerCase(). 
 // Infine, il selettore dello shadow host viene stampato sulla console.
 
-
-
 <script>
-
 
 // Seleziona l'elemento all'interno del quale si trova il Shadow DOM
 var elementoPadre = document.querySelector('selettore_padre');
